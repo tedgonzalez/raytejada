@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8492517D1B4FF20900D8A565 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8492517C1B4FF20900D8A565 /* MenuViewController.m */; };
+		849251811B4FF23300D8A565 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849251801B4FF23300D8A565 /* HomeViewController.m */; };
 		849BA4631B3D9CC800888BEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 849BA4621B3D9CC800888BEB /* main.m */; };
 		849BA4661B3D9CC800888BEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 849BA4651B3D9CC800888BEB /* AppDelegate.m */; };
-		849BA4691B3D9CC800888BEB /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849BA4681B3D9CC800888BEB /* HomeViewController.m */; };
 		849BA46C1B3D9CC800888BEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849BA46A1B3D9CC800888BEB /* Main.storyboard */; };
 		849BA46E1B3D9CC800888BEB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849BA46D1B3D9CC800888BEB /* Images.xcassets */; };
-		849BA4711B3D9CC800888BEB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 849BA46F1B3D9CC800888BEB /* LaunchScreen.xib */; };
 		849BA47D1B3D9CC800888BEB /* RaytejadaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 849BA47C1B3D9CC800888BEB /* RaytejadaTests.m */; };
 		EA44F0C6AD29D8D12112BCF5 /* libPods-Raytejada.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7354368B23D4F3515A1827B /* libPods-Raytejada.a */; };
 /* End PBXBuildFile section */
@@ -28,16 +28,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8492517B1B4FF20900D8A565 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuViewController.h; path = Controller/MenuViewController.h; sourceTree = "<group>"; };
+		8492517C1B4FF20900D8A565 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuViewController.m; path = Controller/MenuViewController.m; sourceTree = "<group>"; };
+		8492517F1B4FF23300D8A565 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = Controller/HomeViewController.h; sourceTree = "<group>"; };
+		849251801B4FF23300D8A565 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = Controller/HomeViewController.m; sourceTree = "<group>"; };
 		849BA45D1B3D9CC700888BEB /* Raytejada.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Raytejada.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		849BA4611B3D9CC800888BEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		849BA4621B3D9CC800888BEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		849BA4641B3D9CC800888BEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		849BA4651B3D9CC800888BEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		849BA4671B3D9CC800888BEB /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
-		849BA4681B3D9CC800888BEB /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		849BA46B1B3D9CC800888BEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		849BA46D1B3D9CC800888BEB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		849BA4701B3D9CC800888BEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		849BA4761B3D9CC800888BEB /* RaytejadaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaytejadaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		849BA47B1B3D9CC800888BEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		849BA47C1B3D9CC800888BEB /* RaytejadaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RaytejadaTests.m; sourceTree = "<group>"; };
@@ -82,6 +83,17 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		8492517E1B4FF21D00D8A565 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8492517F1B4FF23300D8A565 /* HomeViewController.h */,
+				849251801B4FF23300D8A565 /* HomeViewController.m */,
+				8492517B1B4FF20900D8A565 /* MenuViewController.h */,
+				8492517C1B4FF20900D8A565 /* MenuViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		849BA4541B3D9CC700888BEB = {
 			isa = PBXGroup;
 			children = (
@@ -107,11 +119,9 @@
 			children = (
 				849BA4641B3D9CC800888BEB /* AppDelegate.h */,
 				849BA4651B3D9CC800888BEB /* AppDelegate.m */,
-				849BA4671B3D9CC800888BEB /* HomeViewController.h */,
-				849BA4681B3D9CC800888BEB /* HomeViewController.m */,
+				8492517E1B4FF21D00D8A565 /* Controller */,
 				849BA46A1B3D9CC800888BEB /* Main.storyboard */,
 				849BA46D1B3D9CC800888BEB /* Images.xcassets */,
-				849BA46F1B3D9CC800888BEB /* LaunchScreen.xib */,
 				849BA4601B3D9CC800888BEB /* Supporting Files */,
 			);
 			path = Raytejada;
@@ -226,7 +236,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				849BA46C1B3D9CC800888BEB /* Main.storyboard in Resources */,
-				849BA4711B3D9CC800888BEB /* LaunchScreen.xib in Resources */,
 				849BA46E1B3D9CC800888BEB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,9 +287,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				849BA4691B3D9CC800888BEB /* HomeViewController.m in Sources */,
 				849BA4661B3D9CC800888BEB /* AppDelegate.m in Sources */,
 				849BA4631B3D9CC800888BEB /* main.m in Sources */,
+				849251811B4FF23300D8A565 /* HomeViewController.m in Sources */,
+				8492517D1B4FF20900D8A565 /* MenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,14 +319,6 @@
 				849BA46B1B3D9CC800888BEB /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		849BA46F1B3D9CC800888BEB /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				849BA4701B3D9CC800888BEB /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -409,9 +411,11 @@
 			baseConfigurationReference = D632EFEAE888AECC3DF5D2D0 /* Pods-Raytejada.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Raytejada/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -420,9 +424,11 @@
 			baseConfigurationReference = 8D4AFAA28B4281B5B1D29FB7 /* Pods-Raytejada.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Raytejada/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
