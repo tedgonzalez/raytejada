@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		849BA4631B3D9CC800888BEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 849BA4621B3D9CC800888BEB /* main.m */; };
+		849BA4661B3D9CC800888BEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 849BA4651B3D9CC800888BEB /* AppDelegate.m */; };
+		849BA4691B3D9CC800888BEB /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849BA4681B3D9CC800888BEB /* HomeViewController.m */; };
+		849BA46C1B3D9CC800888BEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849BA46A1B3D9CC800888BEB /* Main.storyboard */; };
+		849BA46E1B3D9CC800888BEB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849BA46D1B3D9CC800888BEB /* Images.xcassets */; };
+		849BA4711B3D9CC800888BEB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 849BA46F1B3D9CC800888BEB /* LaunchScreen.xib */; };
+		849BA47D1B3D9CC800888BEB /* RaytejadaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 849BA47C1B3D9CC800888BEB /* RaytejadaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		849BA4771B3D9CC800888BEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 849BA4551B3D9CC700888BEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 849BA45C1B3D9CC700888BEB;
+			remoteInfo = Raytejada;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		849BA45D1B3D9CC700888BEB /* Raytejada.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Raytejada.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		849BA4611B3D9CC800888BEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849BA4621B3D9CC800888BEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		849BA4641B3D9CC800888BEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		849BA4651B3D9CC800888BEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		849BA4671B3D9CC800888BEB /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		849BA4681B3D9CC800888BEB /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		849BA46B1B3D9CC800888BEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		849BA46D1B3D9CC800888BEB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		849BA4701B3D9CC800888BEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		849BA4761B3D9CC800888BEB /* RaytejadaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaytejadaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		849BA47B1B3D9CC800888BEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849BA47C1B3D9CC800888BEB /* RaytejadaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RaytejadaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		849BA45A1B3D9CC700888BEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849BA4731B3D9CC800888BEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		849BA4541B3D9CC700888BEB = {
+			isa = PBXGroup;
+			children = (
+				849BA45F1B3D9CC700888BEB /* Raytejada */,
+				849BA4791B3D9CC800888BEB /* RaytejadaTests */,
+				849BA45E1B3D9CC700888BEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		849BA45E1B3D9CC700888BEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				849BA45D1B3D9CC700888BEB /* Raytejada.app */,
+				849BA4761B3D9CC800888BEB /* RaytejadaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		849BA45F1B3D9CC700888BEB /* Raytejada */ = {
+			isa = PBXGroup;
+			children = (
+				849BA4641B3D9CC800888BEB /* AppDelegate.h */,
+				849BA4651B3D9CC800888BEB /* AppDelegate.m */,
+				849BA4671B3D9CC800888BEB /* HomeViewController.h */,
+				849BA4681B3D9CC800888BEB /* HomeViewController.m */,
+				849BA46A1B3D9CC800888BEB /* Main.storyboard */,
+				849BA46D1B3D9CC800888BEB /* Images.xcassets */,
+				849BA46F1B3D9CC800888BEB /* LaunchScreen.xib */,
+				849BA4601B3D9CC800888BEB /* Supporting Files */,
+			);
+			path = Raytejada;
+			sourceTree = "<group>";
+		};
+		849BA4601B3D9CC800888BEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				849BA4611B3D9CC800888BEB /* Info.plist */,
+				849BA4621B3D9CC800888BEB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		849BA4791B3D9CC800888BEB /* RaytejadaTests */ = {
+			isa = PBXGroup;
+			children = (
+				849BA47C1B3D9CC800888BEB /* RaytejadaTests.m */,
+				849BA47A1B3D9CC800888BEB /* Supporting Files */,
+			);
+			path = RaytejadaTests;
+			sourceTree = "<group>";
+		};
+		849BA47A1B3D9CC800888BEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				849BA47B1B3D9CC800888BEB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		849BA45C1B3D9CC700888BEB /* Raytejada */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849BA4801B3D9CC800888BEB /* Build configuration list for PBXNativeTarget "Raytejada" */;
+			buildPhases = (
+				849BA4591B3D9CC700888BEB /* Sources */,
+				849BA45A1B3D9CC700888BEB /* Frameworks */,
+				849BA45B1B3D9CC700888BEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Raytejada;
+			productName = Raytejada;
+			productReference = 849BA45D1B3D9CC700888BEB /* Raytejada.app */;
+			productType = "com.apple.product-type.application";
+		};
+		849BA4751B3D9CC800888BEB /* RaytejadaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849BA4831B3D9CC800888BEB /* Build configuration list for PBXNativeTarget "RaytejadaTests" */;
+			buildPhases = (
+				849BA4721B3D9CC800888BEB /* Sources */,
+				849BA4731B3D9CC800888BEB /* Frameworks */,
+				849BA4741B3D9CC800888BEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				849BA4781B3D9CC800888BEB /* PBXTargetDependency */,
+			);
+			name = RaytejadaTests;
+			productName = RaytejadaTests;
+			productReference = 849BA4761B3D9CC800888BEB /* RaytejadaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		849BA4551B3D9CC700888BEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = raystudios;
+				TargetAttributes = {
+					849BA45C1B3D9CC700888BEB = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					849BA4751B3D9CC800888BEB = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 849BA45C1B3D9CC700888BEB;
+					};
+				};
+			};
+			buildConfigurationList = 849BA4581B3D9CC700888BEB /* Build configuration list for PBXProject "Raytejada" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 849BA4541B3D9CC700888BEB;
+			productRefGroup = 849BA45E1B3D9CC700888BEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				849BA45C1B3D9CC700888BEB /* Raytejada */,
+				849BA4751B3D9CC800888BEB /* RaytejadaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		849BA45B1B3D9CC700888BEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849BA46C1B3D9CC800888BEB /* Main.storyboard in Resources */,
+				849BA4711B3D9CC800888BEB /* LaunchScreen.xib in Resources */,
+				849BA46E1B3D9CC800888BEB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849BA4741B3D9CC800888BEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		849BA4591B3D9CC700888BEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849BA4691B3D9CC800888BEB /* HomeViewController.m in Sources */,
+				849BA4661B3D9CC800888BEB /* AppDelegate.m in Sources */,
+				849BA4631B3D9CC800888BEB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849BA4721B3D9CC800888BEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849BA47D1B3D9CC800888BEB /* RaytejadaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		849BA4781B3D9CC800888BEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 849BA45C1B3D9CC700888BEB /* Raytejada */;
+			targetProxy = 849BA4771B3D9CC800888BEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		849BA46A1B3D9CC800888BEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				849BA46B1B3D9CC800888BEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		849BA46F1B3D9CC800888BEB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				849BA4701B3D9CC800888BEB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		849BA47E1B3D9CC800888BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		849BA47F1B3D9CC800888BEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		849BA4811B3D9CC800888BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Raytejada/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		849BA4821B3D9CC800888BEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Raytejada/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		849BA4841B3D9CC800888BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RaytejadaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Raytejada.app/Raytejada";
+			};
+			name = Debug;
+		};
+		849BA4851B3D9CC800888BEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RaytejadaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Raytejada.app/Raytejada";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		849BA4581B3D9CC700888BEB /* Build configuration list for PBXProject "Raytejada" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849BA47E1B3D9CC800888BEB /* Debug */,
+				849BA47F1B3D9CC800888BEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		849BA4801B3D9CC800888BEB /* Build configuration list for PBXNativeTarget "Raytejada" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849BA4811B3D9CC800888BEB /* Debug */,
+				849BA4821B3D9CC800888BEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		849BA4831B3D9CC800888BEB /* Build configuration list for PBXNativeTarget "RaytejadaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849BA4841B3D9CC800888BEB /* Debug */,
+				849BA4851B3D9CC800888BEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 849BA4551B3D9CC700888BEB /* Project object */;
+}
