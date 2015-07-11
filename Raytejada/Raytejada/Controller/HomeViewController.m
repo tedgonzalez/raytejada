@@ -7,7 +7,10 @@
 //
 
 #import "HomeViewController.h"
-
+#import "MenuViewController.h"
+#import "PresentingAnimationController.h"
+#import "DismissingAnimationController.h"
+#import <pop/POP.h>
 @interface HomeViewController () <UIViewControllerTransitioningDelegate>
 
 @end
@@ -23,5 +26,27 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)didClickOnPresent:(id)sender {
+    
+    MenuViewController *modalVC = [self.storyboard instantiateViewControllerWithIdentifier:NSStringFromClass([MenuViewController class])];
+    
+    
+    modalVC.transitioningDelegate = self;
+    
+    modalVC.modalPresentationStyle = UIModalPresentationCustom;
+    
+    [self presentViewController:modalVC animated:YES completion:nil];
+}
 
+#pragma mark - UIViewControllerTransitionDelegate -
+
+- (id <UIViewControllerAnimatedTransitioning>)animationControllerForPresentedController:(UIViewController *)presented presentingController:(UIViewController *)presenting sourceController:(UIViewController *)source
+{
+    return [[PresentingAnimationController alloc] init];
+}
+
+- (id <UIViewControllerAnimatedTransitioning>)animationControllerForDismissedController:(UIViewController *)dismissed
+{
+    return [[DismissingAnimationController alloc] init];
+}
 @end

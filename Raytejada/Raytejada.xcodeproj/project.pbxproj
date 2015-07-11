@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		8492517D1B4FF20900D8A565 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8492517C1B4FF20900D8A565 /* MenuViewController.m */; };
 		849251811B4FF23300D8A565 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849251801B4FF23300D8A565 /* HomeViewController.m */; };
+		849251841B4FF31400D8A565 /* PresentingAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849251831B4FF31400D8A565 /* PresentingAnimationController.m */; };
+		849251871B4FF35900D8A565 /* DismissingAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849251861B4FF35900D8A565 /* DismissingAnimationController.m */; };
 		849BA4631B3D9CC800888BEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 849BA4621B3D9CC800888BEB /* main.m */; };
 		849BA4661B3D9CC800888BEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 849BA4651B3D9CC800888BEB /* AppDelegate.m */; };
 		849BA46C1B3D9CC800888BEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849BA46A1B3D9CC800888BEB /* Main.storyboard */; };
@@ -32,6 +34,10 @@
 		8492517C1B4FF20900D8A565 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuViewController.m; path = Controller/MenuViewController.m; sourceTree = "<group>"; };
 		8492517F1B4FF23300D8A565 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = Controller/HomeViewController.h; sourceTree = "<group>"; };
 		849251801B4FF23300D8A565 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = Controller/HomeViewController.m; sourceTree = "<group>"; };
+		849251821B4FF31400D8A565 /* PresentingAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PresentingAnimationController.h; path = Controller/PresentingAnimationController.h; sourceTree = "<group>"; };
+		849251831B4FF31400D8A565 /* PresentingAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PresentingAnimationController.m; path = Controller/PresentingAnimationController.m; sourceTree = "<group>"; };
+		849251851B4FF35900D8A565 /* DismissingAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DismissingAnimationController.h; path = Controller/DismissingAnimationController.h; sourceTree = "<group>"; };
+		849251861B4FF35900D8A565 /* DismissingAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DismissingAnimationController.m; path = Controller/DismissingAnimationController.m; sourceTree = "<group>"; };
 		849BA45D1B3D9CC700888BEB /* Raytejada.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Raytejada.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		849BA4611B3D9CC800888BEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		849BA4621B3D9CC800888BEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -90,6 +96,10 @@
 				849251801B4FF23300D8A565 /* HomeViewController.m */,
 				8492517B1B4FF20900D8A565 /* MenuViewController.h */,
 				8492517C1B4FF20900D8A565 /* MenuViewController.m */,
+				849251821B4FF31400D8A565 /* PresentingAnimationController.h */,
+				849251831B4FF31400D8A565 /* PresentingAnimationController.m */,
+				849251851B4FF35900D8A565 /* DismissingAnimationController.h */,
+				849251861B4FF35900D8A565 /* DismissingAnimationController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -289,7 +299,9 @@
 			files = (
 				849BA4661B3D9CC800888BEB /* AppDelegate.m in Sources */,
 				849BA4631B3D9CC800888BEB /* main.m in Sources */,
+				849251841B4FF31400D8A565 /* PresentingAnimationController.m in Sources */,
 				849251811B4FF23300D8A565 /* HomeViewController.m in Sources */,
+				849251871B4FF35900D8A565 /* DismissingAnimationController.m in Sources */,
 				8492517D1B4FF20900D8A565 /* MenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
