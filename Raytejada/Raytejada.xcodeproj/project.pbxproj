@@ -16,6 +16,9 @@
 		849BA46C1B3D9CC800888BEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849BA46A1B3D9CC800888BEB /* Main.storyboard */; };
 		849BA46E1B3D9CC800888BEB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849BA46D1B3D9CC800888BEB /* Images.xcassets */; };
 		849BA47D1B3D9CC800888BEB /* RaytejadaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 849BA47C1B3D9CC800888BEB /* RaytejadaTests.m */; };
+		84F350661B62B0AD00ED0F88 /* HeaderReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F350651B62B0AD00ED0F88 /* HeaderReusableView.m */; };
+		84F3506B1B62BFEB00ED0F88 /* DIYLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F3506A1B62BFEB00ED0F88 /* DIYLayout.m */; };
+		84F3506E1B63319D00ED0F88 /* HomeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F3506D1B63319D00ED0F88 /* HomeCollectionViewCell.m */; };
 		EA44F0C6AD29D8D12112BCF5 /* libPods-Raytejada.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7354368B23D4F3515A1827B /* libPods-Raytejada.a */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +51,13 @@
 		849BA4761B3D9CC800888BEB /* RaytejadaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaytejadaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		849BA47B1B3D9CC800888BEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		849BA47C1B3D9CC800888BEB /* RaytejadaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RaytejadaTests.m; sourceTree = "<group>"; };
+		84F350641B62B0AD00ED0F88 /* HeaderReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HeaderReusableView.h; path = Views/HeaderReusableView.h; sourceTree = "<group>"; };
+		84F350651B62B0AD00ED0F88 /* HeaderReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HeaderReusableView.m; path = Views/HeaderReusableView.m; sourceTree = "<group>"; };
+		84F350671B62B8B700ED0F88 /* RTConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTConstants.h; sourceTree = "<group>"; };
+		84F350691B62BFEB00ED0F88 /* DIYLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DIYLayout.h; path = Layouts/DIYLayout.h; sourceTree = "<group>"; };
+		84F3506A1B62BFEB00ED0F88 /* DIYLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DIYLayout.m; path = Layouts/DIYLayout.m; sourceTree = "<group>"; };
+		84F3506C1B63319D00ED0F88 /* HomeCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeCollectionViewCell.h; path = Views/HomeCollectionViewCell.h; sourceTree = "<group>"; };
+		84F3506D1B63319D00ED0F88 /* HomeCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeCollectionViewCell.m; path = Views/HomeCollectionViewCell.m; sourceTree = "<group>"; };
 		8D4AFAA28B4281B5B1D29FB7 /* Pods-Raytejada.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Raytejada.release.xcconfig"; path = "Pods/Target Support Files/Pods-Raytejada/Pods-Raytejada.release.xcconfig"; sourceTree = "<group>"; };
 		B7354368B23D4F3515A1827B /* libPods-Raytejada.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Raytejada.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D632EFEAE888AECC3DF5D2D0 /* Pods-Raytejada.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Raytejada.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Raytejada/Pods-Raytejada.debug.xcconfig"; sourceTree = "<group>"; };
@@ -127,6 +137,8 @@
 		849BA45F1B3D9CC700888BEB /* Raytejada */ = {
 			isa = PBXGroup;
 			children = (
+				84F350681B62BFC100ED0F88 /* Layouts */,
+				84F350631B62B00B00ED0F88 /* Views */,
 				849BA4641B3D9CC800888BEB /* AppDelegate.h */,
 				849BA4651B3D9CC800888BEB /* AppDelegate.m */,
 				8492517E1B4FF21D00D8A565 /* Controller */,
@@ -142,6 +154,7 @@
 			children = (
 				849BA4611B3D9CC800888BEB /* Info.plist */,
 				849BA4621B3D9CC800888BEB /* main.m */,
+				84F350671B62B8B700ED0F88 /* RTConstants.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -161,6 +174,26 @@
 				849BA47B1B3D9CC800888BEB /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84F350631B62B00B00ED0F88 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				84F350641B62B0AD00ED0F88 /* HeaderReusableView.h */,
+				84F350651B62B0AD00ED0F88 /* HeaderReusableView.m */,
+				84F3506C1B63319D00ED0F88 /* HomeCollectionViewCell.h */,
+				84F3506D1B63319D00ED0F88 /* HomeCollectionViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		84F350681B62BFC100ED0F88 /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				84F350691B62BFEB00ED0F88 /* DIYLayout.h */,
+				84F3506A1B62BFEB00ED0F88 /* DIYLayout.m */,
+			);
+			name = Layouts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,10 +332,13 @@
 			files = (
 				849BA4661B3D9CC800888BEB /* AppDelegate.m in Sources */,
 				849BA4631B3D9CC800888BEB /* main.m in Sources */,
+				84F3506B1B62BFEB00ED0F88 /* DIYLayout.m in Sources */,
+				84F350661B62B0AD00ED0F88 /* HeaderReusableView.m in Sources */,
 				849251841B4FF31400D8A565 /* PresentingAnimationController.m in Sources */,
 				849251811B4FF23300D8A565 /* HomeViewController.m in Sources */,
 				849251871B4FF35900D8A565 /* DismissingAnimationController.m in Sources */,
 				8492517D1B4FF20900D8A565 /* MenuViewController.m in Sources */,
+				84F3506E1B63319D00ED0F88 /* HomeCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

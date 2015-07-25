@@ -19,8 +19,8 @@
 @implementation MenuViewController
 
 - (void)viewDidLoad {
-    [super viewDidLoad];
     [self buttonsSetAlpha:0];
+    [super viewDidLoad];
 }
 -(void)buttonsSetAlpha:(BOOL)alpha
 {
